@@ -1,0 +1,11 @@
+@mixin rotate($deg){
+    transform:rotate($deg);
+    -ms-transform: rotate($deg); 
+    -webkit-transform: rotate($deg);
+}
+
+@mixin transition($what, $time){
+    transition:$what $time;
+    -webkit-transition:$what $time;
+}
+

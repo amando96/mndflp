@@ -1,0 +1,1775 @@
+<!DOCTYPE html>
+<!--
+Project: cvfolio
+File: index.html
+Creator: Amando Filipe
+Github: https://github.com/amando96
+Web: http://amando-filipe.com
+Email: eu@amando-filipe.com
+Twitter: @mndflp
+Date: Jan 5, 2015
+Time: 3:19:54 AM
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+        <link rel="shortcut icon" href="images/favicons/favicon.ico">
+        <link rel="icon" sizes="16x16 32x32 64x64" href="images/favicons/favicon.ico">
+        <link rel="icon" type="image/png" sizes="196x196" href="images/favicons/favicon-196.png">
+        <link rel="icon" type="image/png" sizes="160x160" href="images/favicons/favicon-160.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="images/favicons/favicon-96.png">
+        <link rel="icon" type="image/png" sizes="64x64" href="images/favicons/favicon-64.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/favicon-152.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/favicon-144.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/favicon-120.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/favicon-114.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/favicon-76.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/favicon-72.png">
+        <link rel="apple-touch-icon" href="images/favicons/favicon-57.png">
+        <meta name="msapplication-TileColor" content="#FFFFFF">
+        <meta name="msapplication-TileImage" content="/favicon-144.png">
+        <meta name="msapplication-config" content="images/browserconfig.xml">
+        <meta name="description" content="Amando FIlipe's personal portfolio">
+        <title>Amando Filipe :: Portfolio</title>
+        <link href='http://fonts.googleapis.com/css?family=Roboto:500,300' rel='stylesheet' type='text/css'>
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <nav id="main-menu">
+            <div class="trigger-nav js-trigger-nav">
+                <i class="fa fa-align-justify"></i>
+            </div>
+            <ul>
+                <li>
+                    <h2 class="blue">Contacts</h2>
+                    <ul>
+                        <li><a data-toggle-modal="#modal-info" class="trigger-modal" href="#"><i class="fa fa-user"></i> About Me</a></li>
+                        <li><a href="mailto:eu@amando-filipe.com"><i class="fa fa-envelope"></i> eu@amando-filipe.com</a> </li>
+                        <li><a target="_blank" href="https://www.facebook.com/amando.filipe"><i class="fa fa-facebook"></i>  amando.filipe</a> </li>
+                        <li><a target="_blank" href="https://twitter.com/mndflp"><i class="fa fa-twitter"></i> @mndflp</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <h2 class="brown">Work</h2>
+                    <ul>
+                        <li><a target="_blank" href="https://github.com/amando96"><i class="fa fa-github"></i> Github</a></li>
+                        <li><a target="_blank" href="http://pt.linkedin.com/pub/amando-filipe/87/566/24b/"><i class="fa fa-linkedin-square"></i> Linkedin</a> </li>
+                        <li><a target="_blank" href="http://codepen.io/amando96/"><i class="fa fa-codepen"></i> Codepen</a> </li>                            
+                        <li><a target="_blank" href="http://jsfiddle.net/user/amando96/fiddles/"><i class="fa fa-jsfiddle"></i> JsFiddle</a> </li>
+                    </ul>
+                </li>
+                <li>
+                    <h2 class="red">Misc</h2>
+                    <ul>
+                        <li> <a target="_blank" href="http://olhares.sapo.pt/amando96/"><i class="fa fa-camera"></i> Olhares</a></li>                            
+                        <li> <a target="_blank" href="https://www.flickr.com/photos/mndstudios/"><i class="fa fa-flickr"></i> Flickr</a></li>
+                        <li> <a target="_blank" href="https://500px.com/amando96"><i class="fa fa-camera-retro"></i> 500px</a></li>
+
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <div class="modal modal-info" id="modal-info">
+            <div class="close-modal">Close <i class="fa fa-close"></i></div>
+            <div class="inner">
+                <div class="mugshot">
+                    <img src="images/mugshot.jpg" alt="User Photo"/>
+                </div>
+                <div class="info-me">
+                    <h2>Info</h2>
+                    <ul>
+                        <li><i class="fa fa-user"></i> Amando Filipe</li>
+                        <li><i class="fa fa-birthday-cake"></i> 23/12/1992</li>
+                        <li><i class="fa fa-link"></i> <a href="http://amando-filipe.com">www.amando-filipe.com</a></li>
+                        <li><i class="fa fa-envelope"></i> <a href="mailto:eu@amando-filipe.com">eu@amando-filipe.com</a></li>
+                        <li><i class="fa fa-phone"></i> <span class="hide_print phone-n">Click to view phone #</span><span class="show_print">+351 911 753 568</span></li>
+                        <li class="hide_print"><i class="fa fa-print"></i> <span class="print">Print</span></li>
+                    </ul>
+                </div>
+                <div class="clearfix"></div>
+                <div class="accordion">
+                    <div class="with-children blue open">
+                        <div class="trigger-accordion-child"><div class="trigger-accordion-child"><i class="fa fa-user"></i>About Me</div>
+                        </div><div class="child">
+                            <p>My name is <strong>Amando Filipe</strong>, I was born on the <strong>23rd of December of 1992</strong>, in <strong>Faro, Portugal.</strong></p>
+                            <p>I'm a self-taught Web Designer and Developer, my first contact with programming was with hardware in C and Assembly for my robotics projects,
+                                and later moved onto Web and Mobile App Development.</p>
+                            <p>I started doing freelance work in 2010 and since then I've worked in-house for Rightcolors, Worklovers, Niobo, and Portugal Telecom.</p>
+                            <p>I currently work at <a title="trivago" href="trivago.com">trivago GmbH</a> and live in Dusseldorf, Germany.</p>
+                        </div>
+                    </div>
+                    <div class="with-children purple">
+                        <div class="trigger-accordion-child"><i class="fa fa-briefcase"></i>Experience
+                        </div><div class="child">
+                            <p></p>
+                            <div class="experience">
+                                <img src="images/companies/trivago-logo.png" alt="trivago logo" title="trivago logo" class="company-logo"/>
+                                <div class="info">
+                                    <h4>Full Stack Engineer</h4>
+                                    <h5>trivago</h5>
+                                    <p class="date">April 2015 – Present | Dusseldorf, Germany</p>
+                                    <p></p>
+                                </div>
+                            </div>
+                            
+                            <div class="experience">
+                                <div class="info">
+                                    <h4>Freelance Web/Mobile Developer</h4>
+                                    <h5>Freelance</h5>
+                                    <p class="date">December 2009 – March 2015, Remote</p>
+                                    <ul>
+                                        <li>Designing and creating web applications</li>
+                                        <li>Creating mobile applications and node.js CRUD APIs on the server</li>
+                                        <li>Creating ecommerce solutions using Zencart and Prestashop</li>
+                                    </ul>
+                                    <p>Technologies used:</p>
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>CSS(SASS)</li>
+                                        <li>Javascript(jQuery, Angular.js)</li>
+                                        <li>PHP(Laravel)</li>
+                                        <li>MySQL</li>
+                                        <li>Python</li>
+                                        <li>Node.js</li>
+                                        <li>MongoDB</li>
+                                        <li>PostgreSQL</li>
+                                        <li>Cordova</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="experience">
+                                <img src="images/companies/pt-logo.png" alt="pt logo" title="pt logo" class="company-logo"/>
+                                <div class="info">
+                                    <h4>Front End Engineer</h4>
+                                    <h5>Portugal Telecom</h5>
+                                    <p class="date">October 2014 – December 2014 | Oeiras, Portugal</p>
+                                    <p>Converting PSDs to responsive designs, HTML5 semantics, CSS3 animations, client side form validation.</p>
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>CSS(SASS)</li>
+                                        <li>Javascript(jQuery, Backbone)</li>
+                                        <li>Microsoft Sharepoint</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="experience">
+                                <img src="images/companies/niobo-logo.png" alt="niobo logo" title="niobo logo" class="company-logo"/>
+                                <div class="info">
+                                    <h4>Full Stack Engineer</h4>
+                                    <h5>Niobo</h5>
+                                    <p class="date">February 2014 – August 2014 | Olhão, Portugal</p>
+                                    <ul>
+                                        <li>Maintaining zencart webstore</li>
+                                        <li>Developing zencart plugins</li>
+                                        <li>Creating facebook applications for social media stimulation</li>
+                                        <li>Banner design</li>
+                                        <li>UX improvement</li>
+                                    </ul>
+                                    <p>Technologies used:</p>
+                                    <ul>
+                                        <li>HTML(Bootstrap)</li>
+                                        <li>CSS</li>
+                                        <li>Javascript(jQuery)</li>
+                                        <li>PHP</li>
+                                        <li>MySQL</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="experience">
+                                <img src="images/companies/wl-logo.png" alt="wl logo" title="wl logo" class="company-logo"/>
+                                <div class="info">
+                                    <h4>Full Stack Engineer</h4>
+                                    <h5>worklovers</h5>
+                                    <p class="date">August 2012 – September 2013 | Loulé, Portugal</p>
+                                    <p>Conceptualize, design, and create solutions for internal and external clients, web applications, management tools, and facebook applications.</p>
+                                    <p>Technologies used:</p>
+                                    <ul>
+                                        <li>HTML(Bootstrap)</li>
+                                        <li>CSS</li>
+                                        <li>Javascript(jQuery)</li>
+                                        <li>PHP</li>
+                                        <li>MySQL</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="experience">
+                                <div class="info">
+                                    <h4>Full Stack Engineer</h4>
+                                    <h5>Rightcolors</h5>
+                                    <p class="date">November 2011 – July 2012 | Remote</p>
+                                    <p>Design, create and maintain web applications for internal projects and clients.
+                                    Create and maintain closed source company CMS.</p>
+                                    <p>Technologies used:</p>
+                                    <ul>
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Javascript(jQuery)</li>
+                                        <li>PHP</li>
+                                        <li>MySQL</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            
+                            
+                        </div>
+                    </div>
+                    <div class="with-children red">
+                        <div class="trigger-accordion-child"><i class="fa fa-gear"></i>I Develop
+                        </div><div class="child">
+                            <p></p>
+                                <ul>
+                                    <li>Accessible, pixel-perfect, responsive designs that simply work no matter the screen size.</li>
+                                    <li>High performance scalable mobile and web Applications.</li>
+                                    <li>Ecommerce solutions.</li>
+                                    <li>Social network presence stimulation solutions.</li>
+                                    <li>Facebook applications.</li>
+                                    <li>SEO strategies.</li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="with-children skills-and-stuff green">
+                        <div class="trigger-accordion-child"><i class="fa fa-wrench"></i>Skills
+                        </div><div class="child">
+                            <h3>Programming:</h3>
+                            <table class="skills">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Years Exp</th>
+                                        <th>Level</th>
+                                    </tr>
+                                </thead>
+                                <tbody>                                
+                                    <tr>
+                                        <td class="skill-name">HTML</td>
+                                        <td class="years-exp">5</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="95"><span class="show_print">95%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">XHTML</td>
+                                        <td class="years-exp">5</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="95"><span class="show_print">95%</span></div></div></td>
+                                    </tr>
+                                     <tr>
+                                        <td class="skill-name">HTML5</td>
+                                        <td class="years-exp">4</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="90"><span class="show_print">90%</span></div></div></td>
+                                    </tr>
+                                     <tr>
+                                        <td class="skill-name">CSS</td>
+                                        <td class="years-exp">5</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="95"><span class="show_print">95%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">CSS3</td>
+                                        <td class="years-exp">4</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="90"><span class="show_print">90%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">XML</td>
+                                        <td class="years-exp">4</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="90"><span class="show_print">90%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">Javascript</td>
+                                        <td class="years-exp">5</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="80"><span class="show_print">80%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">PHP</td>
+                                        <td class="years-exp">5</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="95"><span class="show_print">95%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">Python</td>
+                                        <td class="years-exp">2</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="75"><span class="show_print">75%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">MySQL</td>
+                                        <td class="years-exp">5</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="95"><span class="show_print">95%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">SQLite</td>
+                                        <td class="years-exp">2</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="95"><span class="show_print">95%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">PostgreSQL</td>
+                                        <td class="years-exp">1</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="65"><span class="show_print">65%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">MongoDB</td>
+                                        <td class="years-exp">1</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="60"><span class="show_print">60%</span></div></div></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h3>Frameworks:</h3>
+                            <table class="skills">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Years Exp</th>
+                                        <th>Level</th>
+                                    </tr>
+                                </thead>
+                                <tbody>                                    
+                                    <tr>
+                                        <td class="skill-name">jQuery</td>
+                                        <td class="years-exp">3</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="85"><span class="show_print">85%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">Angular</td>
+                                        <td class="years-exp">1</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="65"><span class="show_print">65%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">Backbone</td>
+                                        <td class="years-exp">1</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="70"><span class="show_print">70%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">Bootstrap</td>
+                                        <td class="years-exp">3</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="95"><span class="show_print">95%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">Gumby</td>
+                                        <td class="years-exp">1</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="90"><span class="show_print">90%</span></div></div></td>
+                                    </tr> 
+                                    <tr>
+                                        <td class="skill-name">Foundation</td>
+                                        <td class="years-exp">1</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="75"><span class="show_print">75%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">Laravel</td>
+                                        <td class="years-exp">2</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="85"><span class="show_print">85%</span></div></div></td>
+                                    </tr>                                   
+                                    <tr>
+                                        <td class="skill-name">Django</td>
+                                        <td class="years-exp">1</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="70"><span class="show_print">70%</span></div></div></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h3>CMS:</h3>
+                            <table class="skills">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Years Exp</th>
+                                        <th>Level</th>
+                                    </tr>
+                                </thead>
+                                <tbody>                                
+                                    <tr>
+                                        <td class="skill-name">Wordpress</td>
+                                        <td class="years-exp">4</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="95"><span class="show_print">95%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">Prestashop</td>
+                                        <td class="years-exp">4</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="90"><span class="show_print">90%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">Zencart</td>
+                                        <td class="years-exp">2</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="95"><span class="show_print">95%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">Magento</td>
+                                        <td class="years-exp">2</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="85"><span class="show_print">85%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">Joomla</td>
+                                        <td class="years-exp">4</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="90"><span class="show_print">90%</span></div></div></td>
+                                    </tr>                                    
+                                    <tr>
+                                        <td class="skill-name">Drupal</td>
+                                        <td class="years-exp">4</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="85"><span class="show_print">80%</span></div></div></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <h3>Technologies:</h3>
+                            <table class="skills">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Years Exp</th>
+                                        <th>Level</th>
+                                    </tr>
+                                </thead>
+                                <tbody>                                
+                                    <tr>
+                                        <td class="skill-name">AJAX</td>
+                                        <td class="years-exp">4</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="100"><span class="show_print">100%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">GIT</td>
+                                        <td class="years-exp">5</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="85"><span class="show_print">85%</span></div></div></td>
+                                    </tr>   
+                                    <tr>
+                                        <td class="skill-name">SASS</td>
+                                        <td class="years-exp">1</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="95"><span class="show_print">95%</span></div></div></td>
+                                    </tr> 
+                                    <tr>
+                                        <td class="skill-name">LESS</td>
+                                        <td class="years-exp">1</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="95"><span class="show_print">95%</span></div></div></td>
+                                    </tr> 
+                                </tbody>
+                            </table>
+                            
+                            <h3>Programs:</h3>
+                            <table class="skills">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Years Exp</th>
+                                        <th>Level</th>
+                                    </tr>
+                                </thead>
+                                <tbody>                                
+                                    <tr>
+                                        <td class="skill-name">Adobe Photoshop</td>
+                                        <td class="years-exp">3</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="90"><span class="show_print">90%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">Adobe Lightroom</td>
+                                        <td class="years-exp">3</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="95"><span class="show_print">95%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">Adobe Illustrator</td>
+                                        <td class="years-exp">2</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="80"><span class="show_print">80%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">Adobe inDesign</td>
+                                        <td class="years-exp">1</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="85"><span class="show_print">85%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">Adobe Premiere</td>
+                                        <td class="years-exp">2</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="80"><span class="show_print">80%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">Adobe After Effects</td>
+                                        <td class="years-exp">2</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="70"><span class="show_print">70%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">GIMP</td>
+                                        <td class="years-exp">6</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="98"><span class="show_print">98%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">Inkscape</td>
+                                        <td class="years-exp">5</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="90"><span class="show_print">90%</span></div></div></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            
+                            <h3>Languages:</h3>
+                            <table class="skills">
+                                <thead>
+                                    <tr>
+                                        <th></th>
+                                        <th>Experience</th>
+                                        <th>Level</th>
+                                    </tr>
+                                </thead>
+                                <tbody>                                
+                                    <tr>
+                                        <td class="skill-name">Portuguese</td>
+                                        <td class="years-exp">Native</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="99"><span class="show_print">99%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">English</td>
+                                        <td class="years-exp">Native</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="99"><span class="show_print">99%</span></div></div></td>
+                                    </tr>
+                                    <tr>
+                                        <td class="skill-name">Spanish</td>
+                                        <td class="years-exp">Advanced</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="80"><span class="show_print">80%</span></div></div></td>
+                                    </tr> 
+                                    <tr>
+                                        <td class="skill-name">German</td>
+                                        <td class="years-exp">Beginner</td>
+                                        <td><div class="skill-bar-outer"><div class="skill-bar" data-skill-level="33"><span class="show_print">33%</span></div></div></td>
+                                    </tr>                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="with-children aqua">
+                        <div class="trigger-accordion-child"><i class="fa fa-university"></i>Education
+                        </div><div class="child">
+                            <h3></h3>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>What</th>
+                                        <th>Where</th>                                        
+                                        <th>When</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            Python
+                                        </td>
+                                        <td>Codecademy</td>
+                                        <td>2012 - 2013</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            PHP
+                                        </td>
+                                        <td>Codecademy</td>
+                                        <td>2012 - 2013</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            jQuery
+                                        </td>
+                                        <td>Codecademy</td>
+                                        <td>2012 - 2013</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Javascript
+                                        </td>
+                                        <td>Codecademy</td>
+                                        <td>2012 - 2013</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            HTML & CSS
+                                        </td>
+                                        <td>Codecademy</td>
+                                        <td>2012 - 2013</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Introduction to Photography
+                                        </td>
+                                        <td>Portuguese Institute of Photography</td>
+                                        <td>2012</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Introduction to SQL
+                                        </td>
+                                        <td>W3schools</td>
+                                        <td>2010 - 2012</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Introduction to PHP
+                                        </td>
+                                        <td>W3schools</td>
+                                        <td>2010 - 2012</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Introduction to Javascript
+                                        </td>
+                                        <td>W3schools</td>
+                                        <td>2010 - 2012</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Introduction to CSS
+                                        </td>
+                                        <td>W3schools</td>
+                                        <td>2010 - 2012</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Introduction to HTML
+                                        </td>
+                                        <td>W3schools</td>
+                                        <td>2010 - 2012</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            Programming and Maintenance of IT Systems
+                                        </td>
+                                        <td>Escola Secundária José Belchior Viegas</td>
+                                        <td>2008 - 2011</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        
+        
+        <div class="modal" id="modal-soauto">
+            <div class="close-modal">Close <i class="fa fa-close"></i></div>
+            <div class="inner">
+                <h1>Soauto Usados</h1>
+                <div class="sliders">
+                    <div class="slider-wrapper desktop-slider">
+                        <div class="desktop-horizontal-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/desktop-s-shots/soauto.jpg" alt=""/></li>
+                                <li><img src="images/slider/desktop-s-shots/soauto-car.jpg" alt=""/></li>
+                                <li><img src="images/slider/desktop-s-shots/soauto-soauto.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="hide-mobile slider-wrapper tablet-slider">
+                        <div class="tablet-vertical-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/tablet-s-shots/vertical/soauto.jpg" alt=""/></li>
+                                <li><img src="images/slider/tablet-s-shots/vertical/soauto-soauto.jpg" alt=""/></li>
+                                <li><img src="images/slider/tablet-s-shots/vertical/soauto-car.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="hide-mobile slider-wrapper mobile-slider">
+                        <div class="mobile-vertical-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/mobile-s-shots/soauto.jpg" alt=""/></li>
+                                <li><img src="images/slider/mobile-s-shots/soauto-car.jpg" alt=""/></li>
+                                <li><img src="images/slider/mobile-s-shots/soauto-soauto.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="with-children blue open">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Description
+                        </div><div class="child">
+                            <p>Clean and modern responsive 9 page design for soauto usados, distributer of VW in Portugal.</p>
+                            <p>Features integrated slider on the homepage and CSS3/Javascript hover state animations for a more engaging UX.</p>
+                        </div>
+                    </div>
+                    <div class="with-children red">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Technical
+                        </div><div class="child">
+                            <table>
+                                <tr>
+                                    <td>Technologies</td>
+                                    <td>HTML5, CSS3, Javascript</td>
+                                </tr>
+                                <tr>
+                                    <td>Frameworks</td>
+                                    <td>jQuery</td>
+                                </tr>
+                                <tr>
+                                    <td>Responsive</td>
+                                    <td>Yes</td>
+                                </tr>
+                                <tr>
+                                    <td>Devices</td>
+                                    <td>Desktop, Laptop, Tablet, Smartphone</td>
+                                </tr>
+                                <tr>
+                                    <td>Pages</td>
+                                    <td>9</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="with-children aqua">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Notes
+                        </div><div class="child">
+                            Client: Soauto Usados via Portugal Telecom<br/>
+                            Link: <a href="http://www.soautousados.pt/" target="_BLANK">soautousados.pt</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="device-select hide-mobile">
+                    <div class="device-select-item device-desktop" data-switch-to="desktop"><i class="fa fa-desktop"></i></div>
+                    <div class="device-select-item device-tablet" data-switch-to="tablet"><i class="fa fa-tablet"></i></div>
+                    <div class="device-select-item device-mobile" data-switch-to="mobile"><i class="fa fa-mobile"></i></div>                    
+                    <!--<a href="#"><div class="device-select-item device-link" data-switch-to="mobile"><i class="fa fa-link"></i></div></a>-->
+                    
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="modal" id="modal-mufip">
+            <div class="close-modal">Close <i class="fa fa-close"></i></div>
+            <div class="inner">
+                <h1>Mufip</h1>
+                <div class="sliders">
+                    <div class="slider-wrapper desktop-slider">
+                        <div class="desktop-horizontal-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/desktop-s-shots/mufip.jpg" alt=""/></li>
+                                <li><img src="images/slider/desktop-s-shots/mufip-ad.jpg" alt=""/></li>
+                                <li><img src="images/slider/desktop-s-shots/mufip-login.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="hide-mobile slider-wrapper tablet-slider">
+                        <div class="tablet-vertical-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/tablet-s-shots/vertical/mufip.jpg" alt=""/></li>
+                                <li><img src="images/slider/tablet-s-shots/vertical/mufip-ad.jpg" alt=""/></li>
+                                <li><img src="images/slider/tablet-s-shots/vertical/mufip-login.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="hide-mobile slider-wrapper mobile-slider">
+                        <div class="mobile-vertical-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/mobile-s-shots/mufip.jpg" alt=""/></li>
+                                <li><img src="images/slider/mobile-s-shots/mufip-ad.jpg" alt=""/></li>
+                                <li><img src="images/slider/mobile-s-shots/mufip-login.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="with-children blue open">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Description
+                        </div><div class="child">
+                            <p>Clean and modern responsive design.</p>
+                            <ul>
+                                <li>Auth system with bcrypt hashed passwords.</li>
+                                <li>Integrated with the IfThen API for ATM reference generation.</li>
+                                <li>Affiliate system.</li>
+                                <li>Custom search engine.</li>
+                            </ul>
+                                
+                        </div>
+                    </div>
+                    <div class="with-children red">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Technical
+                        </div><div class="child">
+                            <table>
+                                <tr>
+                                    <td>Technologies</td>
+                                    <td>HTML5, CSS3, Javascript, PHP, MySQL</td>
+                                </tr>
+                                <tr>
+                                    <td>Frameworks</td>
+                                    <td>jQuery, Bootstrap, Laravel</td>
+                                </tr>
+                                <tr>
+                                    <td>Responsive</td>
+                                    <td>Yes</td>
+                                </tr>
+                                <tr>
+                                    <td>Devices</td>
+                                    <td>Desktop, Laptop, Tablet, Smartphone</td>
+                                </tr>
+                                <tr>
+                                    <td>Pages</td>
+                                    <td>9</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="with-children aqua">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Notes
+                        </div><div class="child">
+                            Client: Worklovers
+                        </div>
+                    </div>
+                </div>
+                <div class="device-select hide-mobile">
+                    <div class="device-select-item device-desktop" data-switch-to="desktop"><i class="fa fa-desktop"></i></div>
+                    <div class="device-select-item device-tablet" data-switch-to="tablet"><i class="fa fa-tablet"></i></div>
+                    <div class="device-select-item device-mobile" data-switch-to="mobile"><i class="fa fa-mobile"></i></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        
+        <div class="modal" id="modal-jguerreiro">
+            <div class="close-modal">Close <i class="fa fa-close"></i></div>
+            <div class="inner">
+                <h1>Jael Guerreiro</h1>
+                <div class="sliders">
+                    <div class="slider-wrapper desktop-slider">
+                        <div class="desktop-horizontal-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/desktop-s-shots/jaelguerreiro.jpg" alt=""/></li>
+                                <li><img src="images/slider/desktop-s-shots/jaelguerreiro-popup.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="hide-mobile slider-wrapper tablet-slider">
+                        <div class="tablet-vertical-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/tablet-s-shots/vertical/jaelguerreiro.jpg" alt=""/></li>
+                                <li><img src="images/slider/tablet-s-shots/vertical/jaelguerreiro-popup.jpg" alt=""/></li>
+                                <li><img src="images/slider/tablet-s-shots/vertical/jaelguerreiro-menu.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="hide-mobile slider-wrapper mobile-slider">
+                        <div class="mobile-vertical-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/mobile-s-shots/jaelguerreiro.jpg" alt=""/></li>
+                                <li><img src="images/slider/mobile-s-shots/jaelguerreiro-popup.jpg" alt=""/></li>
+                                <li><img src="images/slider/mobile-s-shots/jaelguerreiro-menu.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="with-children blue open">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Description
+                        </div><div class="child">
+                            <p>Single page responsive flat design.</p>
+                            <ul>
+                                <li>Popup video/photo gallery with autoplay functionality.</li>
+                                <li>Integrated contact form</li>
+                            </ul>
+                                
+                        </div>
+                    </div>
+                    <div class="with-children red">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Technical
+                        </div><div class="child">
+                            <table>
+                                <tr>
+                                    <td>Technologies</td>
+                                    <td>HTML5, CSS3, Javascript, PHP</td>
+                                </tr>
+                                <tr>
+                                    <td>Frameworks</td>
+                                    <td>jQuery, Bootstrap</td>
+                                </tr>
+                                <tr>
+                                    <td>Responsive</td>
+                                    <td>Yes</td>
+                                </tr>
+                                <tr>
+                                    <td>Devices</td>
+                                    <td>Desktop, Laptop, Tablet, Smartphone</td>
+                                </tr>
+                                <tr>
+                                    <td>Pages</td>
+                                    <td>1</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="with-children aqua">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Notes
+                        </div><div class="child">
+                            Client: Jael Guerreiro
+                        </div>
+                    </div>
+                </div>
+                <div class="device-select hide-mobile">
+                    <div class="device-select-item device-desktop" data-switch-to="desktop"><i class="fa fa-desktop"></i></div>
+                    <div class="device-select-item device-tablet" data-switch-to="tablet"><i class="fa fa-tablet"></i></div>
+                    <div class="device-select-item device-mobile" data-switch-to="mobile"><i class="fa fa-mobile"></i></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        
+        <div class="modal" id="modal-appmundial2014">
+            <div class="close-modal">Close <i class="fa fa-close"></i></div>
+            <div class="inner">
+                <h1>2014 Worldcup App</h1>
+                <div class="sliders">
+                    <div class="slider-wrapper desktop-slider">
+                        <div class="desktop-horizontal-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/desktop-s-shots/mundial2014.jpg" alt=""/></li>
+                                <li><img src="images/slider/desktop-s-shots/mundial2014-games.jpg" alt=""/></li>
+                                <li><img src="images/slider/desktop-s-shots/mundial2014-leaderboard.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="hide-mobile slider-wrapper tablet-slider">
+                        <div class="tablet-vertical-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/tablet-s-shots/vertical/appmundial2014.jpg" alt=""/></li>
+                                <li><img src="images/slider/tablet-s-shots/vertical/appmundial2014-games.jpg" alt=""/></li>
+                                <li><img src="images/slider/tablet-s-shots/vertical/appmundial2014-leaderboard.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="hide-mobile slider-wrapper mobile-slider">
+                        <div class="mobile-vertical-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/mobile-s-shots/appmundial2014.jpg" alt=""/></li>
+                                <li><img src="images/slider/mobile-s-shots/appmundial-menu.jpg" alt=""/></li>
+                                <li><img src="images/slider/mobile-s-shots/appmundialgamelist.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="with-children blue open">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Description
+                        </div><div class="child">
+                            <p>Responsive 8 page template ready for all devices.</p>
+                            <ul>
+                                <li>Auth system integrated with a Zencart installation and bcrypt hashed passwords.</li>
+                                <li>Custom algorithm for point system.</li>
+                            </ul>
+                                
+                        </div>
+                    </div>
+                    <div class="with-children red">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Technical
+                        </div><div class="child">
+                            <table>
+                                <tr>
+                                    <td>Technologies</td>
+                                    <td>HTML5, CSS3, Javascript, PHP, MySQL</td>
+                                </tr>
+                                <tr>
+                                    <td>Frameworks</td>
+                                    <td>jQuery, Bootstrap, Laravel</td>
+                                </tr>
+                                <tr>
+                                    <td>Responsive</td>
+                                    <td>Yes</td>
+                                </tr>
+                                <tr>
+                                    <td>Devices</td>
+                                    <td>Desktop, Laptop, Tablet, Smartphone</td>
+                                </tr>
+                                <tr>
+                                    <td>Pages</td>
+                                    <td>8</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="with-children aqua">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Notes
+                        </div><div class="child">
+                            Client: Niobo
+                        </div>
+                    </div>
+                </div>
+                <div class="device-select hide-mobile">
+                    <div class="device-select-item device-desktop" data-switch-to="desktop"><i class="fa fa-desktop"></i></div>
+                    <div class="device-select-item device-tablet" data-switch-to="tablet"><i class="fa fa-tablet"></i></div>
+                    <div class="device-select-item device-mobile" data-switch-to="mobile"><i class="fa fa-mobile"></i></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        
+        <div class="modal" id="modal-qm">
+            <div class="close-modal">Close <i class="fa fa-close"></i></div>
+            <div class="inner">
+                <h1>QM Country Shop</h1>
+                <div class="sliders">
+                    <div class="slider-wrapper desktop-slider">
+                        <div class="desktop-horizontal-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/desktop-s-shots/qm.jpg" alt=""/></li>
+                                <li><img src="images/slider/desktop-s-shots/qm-fb.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="accordion">
+                    <div class="with-children blue open">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Description
+                        </div><div class="child">
+                            <ul>
+                                <li>10 static width pages.</li>
+                            </ul>
+                                
+                        </div>
+                    </div>
+                    <div class="with-children red">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Technical
+                        </div><div class="child">
+                            <table>
+                                <tr>
+                                    <td>Technologies</td>
+                                    <td>HTML, CSS, Javascript, PHP</td>
+                                </tr>
+                                <tr>
+                                    <td>Frameworks</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>Responsive</td>
+                                    <td>No</td>
+                                </tr>
+                                <tr>
+                                    <td>Devices</td>
+                                    <td>Desktop, Laptop</td>
+                                </tr>
+                                <tr>
+                                    <td>Pages</td>
+                                    <td>10</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="with-children aqua">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Notes
+                        </div><div class="child">
+                            Client: QM Country Shop
+                        </div>
+                    </div>
+                </div>
+                <div class="device-select hide-mobile">
+                    <div class="device-select-item device-desktop" data-switch-to="desktop"><i class="fa fa-desktop"></i></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="modal" id="modal-lensfinder">
+            <div class="close-modal">Close <i class="fa fa-close"></i></div>
+            <div class="inner">
+                <h1>Niobo Lens Finder</h1>
+                <div class="sliders">
+                    <div class="slider-wrapper desktop-slider">
+                        <div class="desktop-horizontal-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/desktop-s-shots/lensfinder.jpg" alt=""/></li>
+                                <li><img src="images/slider/desktop-s-shots/lensfinder-search.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="hide-mobile slider-wrapper tablet-slider">
+                        <div class="tablet-vertical-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/tablet-s-shots/vertical/lensfinder.jpg" alt=""/></li>
+                                <li><img src="images/slider/tablet-s-shots/vertical/lensfinder-search.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="hide-mobile slider-wrapper mobile-slider">
+                        <div class="mobile-vertical-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/mobile-s-shots/lensfinder.jpg" alt=""/></li>
+                                <li><img src="images/slider/mobile-s-shots/lensfinder-search.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="with-children blue open">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Description
+                        </div><div class="child">
+                            <p>App integrated with Zencart installation to help users more easily search for photography lenses.</p>
+                            <ul>
+                                <li>Integrated with Zencart database, prices and sales are always up-to-date.</li>
+                                <li>3 simple search filters.</li>
+                            </ul>
+                                
+                        </div>
+                    </div>
+                    <div class="with-children red">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Technical
+                        </div><div class="child">
+                            <table>
+                                <tr>
+                                    <td>Technologies</td>
+                                    <td>HTML, CSS, Javascript, PHP, MySQL</td>
+                                </tr>
+                                <tr>
+                                    <td>Frameworks</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>Responsive</td>
+                                    <td>Yes</td>
+                                </tr>
+                                <tr>
+                                    <td>Devices</td>
+                                    <td>Desktop, Laptop, Tablet, Smartphone</td>
+                                </tr>
+                                <tr>
+                                    <td>Pages</td>
+                                    <td>1</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="with-children aqua">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Notes
+                        </div><div class="child">
+                            Client: Niobo
+                        </div>
+                    </div>
+                </div>
+                <div class="device-select hide-mobile">
+                    <div class="device-select-item device-desktop" data-switch-to="desktop"><i class="fa fa-desktop"></i></div>
+                    <div class="device-select-item device-tablet" data-switch-to="tablet"><i class="fa fa-tablet"></i></div>
+                    <div class="device-select-item device-mobile" data-switch-to="mobile"><i class="fa fa-mobile"></i></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        
+        <div class="modal" id="modal-quizpao">
+            <div class="close-modal">Close <i class="fa fa-close"></i></div>
+            <div class="inner">
+                <h1>Quiz Pão D'água</h1>
+                <div class="sliders">
+                    <div class="slider-wrapper desktop-slider">
+                        <div class="desktop-horizontal-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/desktop-s-shots/quizpao.jpg" alt=""/></li>
+                                <li><img src="images/slider/desktop-s-shots/quizpao-1.jpg" alt=""/></li>
+                                <li><img src="images/slider/desktop-s-shots/quizpao-2.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="with-children blue open">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Description
+                        </div><div class="child">
+                            <p>Quiz for the user to fill-in and get a type of bread as a result, for later sharing on facebook as a form of social media page stimulation.</p>                                
+                        </div>
+                    </div>
+                    <div class="with-children red">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Technical
+                        </div><div class="child">
+                            <table>
+                                <tr>
+                                    <td>Technologies</td>
+                                    <td>HTML, CSS, Javascript</td>
+                                </tr>
+                                <tr>
+                                    <td>Frameworks</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>Responsive</td>
+                                    <td>No</td>
+                                </tr>
+                                <tr>
+                                    <td>Devices</td>
+                                    <td>Desktop, Laptop</td>
+                                </tr>
+                                <tr>
+                                    <td>Pages</td>
+                                    <td>1</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="with-children aqua">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Notes
+                        </div><div class="child">
+                            Client: Pão D'água via Worklovers
+                        </div>
+                    </div>
+                </div>
+                <div class="device-select hide-mobile">
+                    <div class="device-select-item device-desktop" data-switch-to="desktop"><i class="fa fa-desktop"></i></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        
+        <div class="modal" id="modal-salaries">
+            <div class="close-modal">Close <i class="fa fa-close"></i></div>
+            <div class="inner">
+                <h1>Quanto Se ganha?</h1>
+                <div class="sliders">
+                    <div class="slider-wrapper desktop-slider">
+                        <div class="desktop-horizontal-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/desktop-s-shots/salaries.jpg" alt=""/></li>
+                                <li><img src="images/slider/desktop-s-shots/salaries-2.jpg" alt=""/></li>
+                                <li><img src="images/slider/desktop-s-shots/salaries-3.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="hide-mobile slider-wrapper tablet-slider">
+                        <div class="tablet-vertical-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/tablet-s-shots/vertical/salaries.jpg" alt=""/></li>
+                                <li><img src="images/slider/tablet-s-shots/vertical/salaries-2.jpg" alt=""/></li>
+                                <li><img src="images/slider/tablet-s-shots/vertical/salaries-3.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="hide-mobile slider-wrapper mobile-slider">
+                        <div class="mobile-vertical-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/mobile-s-shots/salaries.jpg" alt=""/></li>
+                                <li><img src="images/slider/mobile-s-shots/salaries-2.jpg" alt=""/></li>
+                                <li><img src="images/slider/mobile-s-shots/salaries-3.jpg" alt=""/></li>
+                                <li><img src="images/slider/mobile-s-shots/salaries-4.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="with-children blue open">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Description
+                        </div><div class="child">
+                            <p>Crowdsourced database for salary and work condition comparison.</p>
+                            <ul>
+                                <li>4 responsive pages.</li>
+                                <li>Open data submission.</li>
+                            </ul>
+                                
+                        </div>
+                    </div>
+                    <div class="with-children red">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Technical
+                        </div><div class="child">
+                            <table>
+                                <tr>
+                                    <td>Technologies</td>
+                                    <td>HTML, CSS, Javascript, Python, PostgreSQL</td>
+                                </tr>
+                                <tr>
+                                    <td>Frameworks</td>
+                                    <td>Bootstrap, Django</td>
+                                </tr>
+                                <tr>
+                                    <td>Responsive</td>
+                                    <td>Yes</td>
+                                </tr>
+                                <tr>
+                                    <td>Devices</td>
+                                    <td>Desktop, Laptop, Tablet, Smartphone</td>
+                                </tr>
+                                <tr>
+                                    <td>Pages</td>
+                                    <td>4</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="with-children aqua">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Notes
+                        </div><div class="child">
+                            Under Development
+                        </div>
+                    </div>
+                </div>
+                <div class="device-select hide-mobile">
+                    <div class="device-select-item device-desktop" data-switch-to="desktop"><i class="fa fa-desktop"></i></div>                    
+                    <div class="device-select-item device-tablet" data-switch-to="tablet"><i class="fa fa-tablet"></i></div>
+                    <div class="device-select-item device-mobile" data-switch-to="mobile"><i class="fa fa-mobile"></i></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        
+        <div class="modal" id="modal-wl">
+            <div class="close-modal">Close <i class="fa fa-close"></i></div>
+            <div class="inner">
+                <h1>Worklovers</h1>
+                <div class="sliders">
+                    <div class="slider-wrapper desktop-slider">
+                        <div class="desktop-horizontal-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/desktop-s-shots/wl.jpg" alt=""/></li>
+                                <li><img src="images/slider/desktop-s-shots/wl-2.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="with-children blue open">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Description
+                        </div><div class="child">
+                            <p>Worklover's homepage</p>
+                            <ul>
+                                <li>2 pages, 1 contact form.</li>
+                            </ul>
+                                
+                        </div>
+                    </div>
+                    <div class="with-children red">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Technical
+                        </div><div class="child">
+                            <table>
+                                <tr>
+                                    <td>Technologies</td>
+                                    <td>HTML, CSS, Javascript, PHP, MySQL</td>
+                                </tr>
+                                <tr>
+                                    <td>Frameworks</td>
+                                    <td>jQuery</td>
+                                </tr>
+                                <tr>
+                                    <td>Responsive</td>
+                                    <td>No</td>
+                                </tr>
+                                <tr>
+                                    <td>Devices</td>
+                                    <td>Desktop, Laptop</td>
+                                </tr>
+                                <tr>
+                                    <td>Pages</td>
+                                    <td>2</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="with-children aqua">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Notes
+                        </div><div class="child">
+                            Client: Worklovers
+                        </div>
+                    </div>
+                </div>
+                <div class="device-select hide-mobile">
+                    <div class="device-select-item device-desktop" data-switch-to="desktop"><i class="fa fa-desktop"></i></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        
+        <div class="modal" id="modal-amando-filipe-splash">
+            <div class="close-modal">Close <i class="fa fa-close"></i></div>
+            <div class="inner">
+                <h1>Micro-site selection splash screen</h1>
+                <div class="sliders">
+                    <div class="slider-wrapper desktop-slider">
+                        <div class="desktop-horizontal-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/desktop-s-shots/amando-filipe-splash.jpg" alt=""/></li>
+                                <li><img src="images/slider/desktop-s-shots/amando-filipe-splash-2.jpg" alt=""/></li>
+                                <li><img src="images/slider/desktop-s-shots/amando-filipe-splash-3.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="with-children blue open">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Description
+                        </div><div class="child">
+                            <p>Micro-site selection splash screen</p>
+                            <ul>
+                                <li>Unlimited items.</li>
+                                <li>Sound effects.</li>
+                            </ul>
+                                
+                        </div>
+                    </div>
+                    <div class="with-children red">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Technical
+                        </div><div class="child">
+                            <table>
+                                <tr>
+                                    <td>Technologies</td>
+                                    <td>HTML, CSS, Javascript</td>
+                                </tr>
+                                <tr>
+                                    <td>Frameworks</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>Responsive</td>
+                                    <td>No</td>
+                                </tr>
+                                <tr>
+                                    <td>Devices</td>
+                                    <td>Desktop, Laptop</td>
+                                </tr>
+                                <tr>
+                                    <td>Pages</td>
+                                    <td>1</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!--<div class="with-children aqua">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Notes
+                        </div><div class="child">
+                            Client: Worklovers
+                        </div>
+                    </div>-->
+                </div>
+                <div class="device-select hide-mobile">
+                    <div class="device-select-item device-desktop" data-switch-to="desktop"><i class="fa fa-desktop"></i></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="modal" id="modal-organic">
+            <div class="close-modal">Close <i class="fa fa-close"></i></div>
+            <div class="inner">
+                <h1>Organic Theme</h1>
+                <div class="sliders">
+                    <div class="slider-wrapper desktop-slider">
+                        <div class="desktop-horizontal-slider">
+                            <ul class="bxslider portfolio-item">
+                                <li><img src="images/slider/desktop-s-shots/organic-theme.jpg" alt=""/></li>
+                                <li><img src="images/slider/desktop-s-shots/organic-theme-2.jpg" alt=""/></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="with-children blue open">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Description
+                        </div><div class="child">
+                            <p>Organic Theme for ecommerce webstores, Prestashop and Magento</p>
+                                
+                        </div>
+                    </div>
+                    <div class="with-children red">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Technical
+                        </div><div class="child">
+                            <table>
+                                <tr>
+                                    <td>Technologies</td>
+                                    <td>HTML, CSS, Javascript</td>
+                                </tr>
+                                <tr>
+                                    <td>Frameworks</td>
+                                    <td>jQuery, Gumby</td>
+                                </tr>
+                                <tr>
+                                    <td>Responsive</td>
+                                    <td>Yes</td>
+                                </tr>
+                                <tr>
+                                    <td>Devices</td>
+                                    <td>Desktop, Laptop, Tablet, Smartphone</td>
+                                </tr>
+                                <tr>
+                                    <td>Pages</td>
+                                    <td>1</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="with-children aqua">
+                        <div class="trigger-accordion-child"><i class="fa fa-arrow-circle-down"></i>Notes
+                        </div><div class="child">
+                            Under Development
+                        </div>
+                    </div>
+                </div>
+                <div class="device-select hide-mobile">
+                    <div class="device-select-item device-desktop" data-switch-to="desktop"><i class="fa fa-desktop"></i></div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="over-content"></div>
+        <div class="container">
+            <div class="force-page-height">
+                <div id="above-nav">
+                    <div class="inner">
+                        
+                            <img data-toggle-modal="#modal-info" class="trigger-modal" id="logo" alt="" src="images/aflogo.png"/>
+                        
+                        <div id="title">
+                            Amando Filipe's CVfolio
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+                <nav id="main-nav">
+                    
+                </nav>
+                <div id="content">
+                    <div class="row">
+                        <div data-toggle-modal="#modal-info" class="about-me trigger-modal portfolio-item clickable blue">
+                            <div class="inner">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        About Me
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div data-toggle-modal="#modal-soauto" class="trigger-modal portfolio-item clickable item-span-2 aqua">
+                            <div class="inner">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <div class="img-wrapper">
+                                            <img src="images/slider/soauto.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                        
+                        <div data-toggle-modal="#modal-appmundial2014" class="trigger-modal portfolio-item clickable aqua">
+                            <div class="inner">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <div class="img-wrapper">
+                                            <img src="images/slider/appmundial2014.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="row">  
+                        <div data-toggle-modal="#modal-organic"  class="trigger-modal portfolio-item item-span-2 clickable aqua">
+                            <div class="inner">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <div class="img-wrapper">
+                                            <img src="images/slider/organic-theme.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                        
+                        
+                        
+                        <div data-toggle-modal="#modal-lensfinder" class="trigger-modal portfolio-item clickable item-span-2 blue">
+                            <div class="inner">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <div class="img-wrapper">
+                                            <img src="images/slider/lensfinder.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                      
+                        
+                        
+                        <div data-toggle-modal="#modal-mufip" class="trigger-modal portfolio-item clickable blue">
+                            <div class="inner">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <div class="img-wrapper">
+                                            <img src="images/slider/mufip.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!--<div data-toggle-modal="#modal-salaries" class="trigger-modal portfolio-item clickable red">
+                            <div class="inner">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <div class="img-wrapper">
+                                            <img src="images/slider/salaries.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>-->
+                        
+                        
+                        
+                    	<div data-toggle-modal="#modal-quizpao" class="trigger-modal portfolio-item item-span-2 clickable blue">
+                            <div class="inner">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <div class="img-wrapper">
+                                            <img src="images/slider/quizpao.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                        
+                        <div data-toggle-modal="#modal-jguerreiro" class="trigger-modal portfolio-item clickable aqua">
+                            <div class="inner">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <div class="img-wrapper">
+                                            <img src="images/slider/jaelguerreiro.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <!-- quiz pao -->
+                        <div data-toggle-modal="#modal-wl"  class="trigger-modal portfolio-item clickable aqua">
+                            <div class="inner">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <div class="img-wrapper">
+                                            <img src="images/slider/wl.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle-modal="#modal-qm" class="trigger-modal portfolio-item item-span-2 clickable green">
+                            <div class="inner">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <div class="img-wrapper">
+                                            <img src="images/slider/qm.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-toggle-modal="#modal-amando-filipe-splash" class="trigger-modal portfolio-item clickable red">
+                            <div class="inner">
+                                <div class="table">
+                                    <div class="table-cell">
+                                        <div class="img-wrapper">
+                                            <img src="images/slider/amando-filipe-splash.jpg" alt=""/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                
+            </div>
+            <footer id="main-footer">
+                <div class="row">
+                    <div class="footer-item first">
+                        <h2>Contacts</h2>
+                        <ul>
+                            <li><a href="mailto:eu@amando-filipe.com">eu@amando-filipe.com</a> <div class="i-wrapper"><i class="fa fa-envelope"></i></div></li>
+                            <li><a target="_blank" href="https://www.facebook.com/amando.filipe">amando.filipe</a> <div class="i-wrapper"><i class="fa fa-facebook"></i></div></li>
+                            <li><a target="_blank" href="https://twitter.com/mndflp">@mndflp</a> <div class="i-wrapper"><i class="fa fa-twitter"></i></div></li>
+                        </ul>
+                    </div>
+                    <div class="footer-item">
+                        <h2>Work</h2>
+                        <ul>
+                            <li><a target="_blank" href="https://github.com/amando96">Github</a> <div class="i-wrapper"><i class="fa fa-github"></i></div></li>
+                            <li><a target="_blank" href="http://pt.linkedin.com/pub/amando-filipe/87/566/24b/">Linkedin</a> <div class="i-wrapper"><i class="fa fa-linkedin-square"></i></div></li>
+                            <li><a target="_blank" href="http://codepen.io/amando96/">Codepen</a> <div class="i-wrapper"><i class="fa fa-codepen"></i></div></li>                            
+                        </ul>
+                    </div>
+                    <div class="footer-item last">
+                        <h2>Misc</h2>
+                        <ul>
+                            <li><div class="i-wrapper"><i class="fa fa-camera"></i></div> <a target="_blank" href="http://olhares.sapo.pt/amando96/">Olhares</a></li>                            
+                            <li><div class="i-wrapper"><i class="fa fa-flickr"></i></div> <a target="_blank" href="https://www.flickr.com/photos/mndstudios/">Flickr</a></li>
+                            <li><div class="i-wrapper"><i class="fa fa-camera-retro"></i></div> <a target="_blank" href="https://500px.com/amando96">500px</a></li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div class="credit">
+                    &copy; 2010 - 2015 <a href="http://amando-filipe.com">amando-filipe.com</a>
+                </div>
+            </footer>
+        </div>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>       
+        <script src="js/jquery.bxslider.js" type="text/javascript"></script>
+        <script src="js/main.js" type="text/javascript"></script>
+        <script src="js/db.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        <!--//--><![CDATA[//><!--
+                var images = new Array();
+                function preload() {
+                    for (i = 0; i < preload.arguments.length; i++) {
+                        images[i] = new Image();
+                        images[i].src = preload.arguments[i];
+                    }
+                }
+                preload(
+                        "images/slider/devices/imac.png",
+                        "images/slider/devices/ipad-vertical.png",
+                        "images/slider/devices/iphone-vertical.png"
+                );
+        //--><!]]>
+	</script>
+	<script>
+            $(document).ready(function() {
+                cl = 0;
+                var getData = function(){
+                    $.ajax({
+                            type: "POST",
+                            url: "data.php",
+                            data: {'action': 'get'},
+                            success:function(data){
+                                    cl = data;
+                            }
+                    }).done(function() {
+                    });
+                    return cl;
+                };
+                var save = function(event){
+                    if(getData() !== ''){
+                            clicks = JSON.parse(getData());
+                    } else {
+                            clicks = new Array();	
+                    }
+                    clicks.push({"x": event.clientX, "y": event.clientY});
+
+                    $.ajax({
+                            type: "POST",
+                            url: "data.php",
+                            data: {'action': 'save', 'data': JSON.stringify(clicks)}
+                    }).done(function() {
+
+                    });                    
+                };    
+                window.addEventListener('mousedown', function(event){					
+                        save(event);
+                });        
+            });
+	</script>
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-50187421-2']);
+            _gaq.push(['_trackPageview']);
+            _gaq.push(['_anonymizeIP', false]);
+            (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+            // For themes that use pjax or turbolinks
+            $(window).on('page:change pjax:success', function() {
+            _gaq.push(['_trackPageview']);
+            });
+        </script>
+    </body>
+</html>

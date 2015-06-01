@@ -1,0 +1,168 @@
+/*
+Project: amando-filipe
+File: menu.css
+Creator: Amando Filipe
+Github: https://github.com/amando96
+Web: http://amando-filipe.com
+Email: eu@amando-filipe.com
+Twitter: @mndflp
+Date: Jan 25, 2015
+Time: 8:08:11 PM
+*/
+/* 
+    Created on : Jan 25, 2015, 8:08:11 PM
+    Author     : Amando
+*/
+/*.menu-wrapper {
+    min-width:56px;
+    position:fixed;
+    z-index:9999;
+    top:0;
+    left:0;
+}
+nav {
+    margin: 38px 0 0 0;
+    transform-origin: 0% 0%;
+    transform:rotate(90deg);
+    transition: transform 500ms;    
+    z-index:199;
+    border:none;
+}
+.nav-visible nav {
+    transform:rotate(0deg);
+    transition: transform 500ms;
+}
+.trigger-nav {
+    z-index: 299;
+    position:absolute;
+    left:0;
+    padding:5px 11px 5px 10px;
+    background:#5D6CD3;
+    color:white;
+    font-size:22px;
+}
+.trigger-nav:hover {
+    background:white;
+    color:#5D6CD3;
+    cursor:pointer;
+    
+}
+nav ul{
+    margin:0;
+    padding:0;
+}
+nav ul li{
+    list-style-type:none;
+    border-top: 1px solid white;
+    background:#5D6CD3;
+}
+
+nav ul li:hover{
+    background:white;
+}
+
+nav ul li ul{
+    z-index:-99;
+    position:absolute;
+    left:101%;
+    width:0%;
+    overflow:hidden;
+    margin:-1px 0 0 0;
+    transition: width 200ms;
+}
+nav ul li ul li{
+}
+nav li a{
+    display:block;
+    padding:5px 0;
+    text-decoration: none;
+    padding:5px 20px;
+    font-size:20px;
+    color:white;
+}
+nav li:hover a, nav li a:hover{
+    color:#5D6CD3 !important;
+    text-decoration:none;
+}
+
+nav ul li ul a{
+    color:white;
+}
+
+nav ul li:hover ul{
+    width:101%;
+    transition: width 200ms;
+    
+}*/
+
+.trigger-nav {
+    z-index: 299;
+    margin: 0 0 0 100%;
+    display:inline;
+    padding:6px 6px 1px 5px;
+    background:#5D6CD3;
+    color:white;
+    font-size:22px;
+}
+
+.nav-visible .trigger-nav {
+    background:white;
+    color:#5D6CD3;
+}
+
+.nav-visible .trigger-nav:hover {
+    background:#5D6CD3;
+    color:white;
+}
+.trigger-nav:hover {
+    background:white;
+    color:#5D6CD3;
+    cursor:pointer;
+    
+}
+
+nav{
+    width:20%;
+    transition: margin 500ms;
+    background:white;
+    z-index:299;
+    position:fixed;
+    height:100%;
+    top:0;
+    left:-20%;
+    transition: left 500ms; 
+}
+
+.nav-visible #main-menu{
+    left: 0;
+    transition: left 500ms;     
+}
+
+nav ul li a{
+    display:block;
+    padding: 5px 25px;
+    border-bottom: 1px solid #5D6CD3;
+}
+nav ul li h2{
+    background-color: #5D6CD3;
+    padding:5px 20px;
+}
+
+.over-content{
+    display:none;
+    position:fixed;
+    width:100%;
+    height:100%;
+    z-index:298;
+    top:0;
+    left:-20%;
+    background:rgba(0,0,0,0);
+}
+
+.nav-visible .over-content{
+    display:block;    
+    left:0;
+    background:rgba(0,0,0,0.8);
+    transition:background 500ms linear;
+}
+
