@@ -100,7 +100,6 @@ nav h2.red{background:$red;}
 
 .nav-visible .container{
     overflow:hidden;
-    transform:translatex(14%);
     @include transition(transform, 500ms);
 }
 
